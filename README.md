@@ -1,6 +1,6 @@
 # Innovate Pro Bono 🌱
 
-**Innovate Pro Bono** es una fundación comprometida con la justicia social, cuya misión es transformar el futuro de jóvenes extutelados ofreciéndoles oportunidades reales de crecimiento personal y profesional.
+**Innovate Pro Bono** es una fundación en proceso de financiación por parte del Ayuntamiento de Barcelona comprometida con la justicia social, cuya misión es transformar el futuro de jóvenes extutelados ofreciéndoles oportunidades reales de crecimiento personal y profesional.
 
 ## ¿Y esto?
 
