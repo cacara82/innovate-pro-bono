@@ -1,6 +1,6 @@
 # Innovate Pro Bono 🌱
 
-**Innovate Pro Bono** es una fundación en proceso de financiación por parte del Ayuntamiento de Barcelona comprometida con la justicia social, cuya misión es transformar el futuro de jóvenes extutelados ofreciéndoles oportunidades reales de crecimiento personal y profesional.
+**Innovate Pro Bono** es una fundación financiada por entidades públicas y privadas comprometida con la justicia social, cuya misión es transformar el futuro de jóvenes extutelados ofreciéndoles oportunidades reales de crecimiento personal y profesional.
 
 ## ¿Y esto?
 
@@ -9,7 +9,7 @@ Como te habrás imaginado, estás viendo el repositorio de la web del proyecto. 
 ## ¿Dónde puedo colaborar?
 
 - 📚 **Linkedin**: La página de Linkedin para el proyecto estará disponible pronto.
-- 🚀 **Web**: La web del proyecto aún está en desarrollo.
+- 🚀 **Web**: De momento la web del proyecto se puede visitar en el siguiente [enlace](https://innovate-pro-bono.vercel.app/).
 
 ---
 
