@@ -57,7 +57,7 @@ export default function Home() {
                           ¿POR QUÉ NOSOTROS?
                         </h2>
                         <p className="text-center md:text-right font-titillium text-lg">
-                          En INNOVATE Pro-Bono partimos de una convicción: cada joven tiene talento, energía y capacidad para llegar lejos, si cuenta con las oportunidades adecuadas.
+                          Porque acogemos a menores extutelados para ofrecerles oportunidades reales de crecimiento personal y profesional, confiando en su potencial y acompañándolos en su camino hacia una vida autónoma.
                         </p>
                       </div>
                     </div>
@@ -84,7 +84,7 @@ export default function Home() {
                           NUESTRA MISIÓN
                         </h2>
                         <p className="text-center md:text-left font-titillium text-lg">
-                          Nos dedicamos a crear redes de apoyo y oportunidades significativas para que cada joven pueda desarrollar su potencial.
+                          Nos dedicamos a crear redes de apoyo y oportunidades significativas para que cada joven pueda desarrollar su potencial mediante un equipo de profesionales adaptados a sus necesidades.
                         </p>
                       </div>
                     </div>
