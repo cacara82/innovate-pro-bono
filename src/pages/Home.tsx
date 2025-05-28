@@ -19,7 +19,7 @@ export default function Home() {
             </div>
             
             <section className="w-full bg-white">
-              <h1 className="font-montserrat text-3xl md:text-6xl text-center text-[#031f3d] font-bold py-16 my-8 transition-all duration-300 hover:tracking-wider">
+              <h1 className="font-montserrat text-3xl md:text-6xl text-center text-[#031f3d] font-bold py-16 my-8 mt-10 mb-15">
                 NADIE DEBERÍA EMPEZAR SOLO
               </h1>
               <div className="relative max-w-6xl mx-auto px-6 md:px-4 pb-16"> 
@@ -30,8 +30,8 @@ export default function Home() {
                   </div>
                   <div className="flex flex-col md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-4 items-center"> 
                     <div className="md:pr-4"> 
-                      <div className="mx-auto max-w-md md:mx-0 md:max-w-none rounded-lg overflow-hidden shadow-md group-hover:shadow-xl group-hover:scale-105 transition-all duration-300 ease-in-out transform">
-                        <img src="home1.jpg" alt="Cada joven cuenta" className="w-full h-auto object-cover" />
+                      <div className="mx-auto max-w-md md:mx-0 md:max-w-none rounded-lg overflow-hidden shadow-md">
+                        <img src="home1.jpg" alt="Cada joven cuenta" className="w-full h-auto object-cover hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out transform" />
                       </div>
                     </div>
                     <div className="mt-6 md:mt-0 md:pl-4">
@@ -62,20 +62,20 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="md:pl-4 order-1 md:order-2">
-                      <div className="mx-auto max-w-md md:mx-0 md:max-w-none rounded-lg overflow-hidden shadow-md group-hover:shadow-xl group-hover:scale-105 transition-all duration-300 ease-in-out transform">
-                        <img src="home2.jpg" alt="¿Por qué nosotros?" className="w-full h-auto object-cover" />
+                      <div className="mx-auto max-w-md md:mx-0 md:max-w-none rounded-lg overflow-hidden shadow-md">
+                        <img src="home2.jpg" alt="¿Por qué nosotros?" className="w-full h-auto object-cover hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out transform" />
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="relative mb-16 md:mb-20 group">
+                <div className="relative mb-16 md:mb-20">
                   <div className="absolute left-1/2 top-1/2 w-4 h-4 bg-[#031f3d] rounded-full transform -translate-x-1/2 -translate-y-1/2 hidden md:flex items-center justify-center z-10" aria-hidden="true">
                     <div className="w-2 h-2 bg-white rounded-full"></div>
                   </div>
                   <div className="flex flex-col md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-4 items-center">
                     <div className="md:pr-4">
-                      <div className="mx-auto max-w-md md:mx-0 md:max-w-none rounded-lg overflow-hidden shadow-md group-hover:shadow-xl group-hover:scale-105 transition-all duration-300 ease-in-out transform">
-                        <img src="home3.jpg" alt="Nuestra misión" className="w-full h-auto object-cover" />
+                      <div className="mx-auto max-w-md md:mx-0 md:max-w-none rounded-lg overflow-hidden shadow-md">
+                        <img src="home3.jpg" alt="Nuestra misión" className="w-full h-auto object-cover hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out transform" />
                       </div>
                     </div>
                     <div className="mt-6 md:mt-0 md:pl-4">
