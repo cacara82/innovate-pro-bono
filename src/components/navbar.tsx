@@ -10,8 +10,8 @@ export default function Navbar() {
   // navItems array
   const navItems = [
     { name: '¿Quiénes somos?', href: '/' },
-    { name: 'Nuestra misión', href: '/mission' },
-    { name: 'Nuestra visión', href: '/vision' },
+    { name: 'Nuestra misión', href: '/nuestra-mision' },
+    { name: 'Nuestra visión', href: '/nuestra-vision' },
   ];
  
   return (

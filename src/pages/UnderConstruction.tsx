@@ -8,7 +8,7 @@ export default function UnderConstruction() {
             <div className="flex flex-col items-center justify-center px-4 py-16 min-h-[60vh]">
                 
                 <div className="w-64 h-64 md:w-80 md:h-80 bg-gray-200 rounded-lg mb-8 flex items-center justify-center">
-                    <span className="text-gray-400 text-sm">Imagen placeholder</span>
+                    <img src="under-construction.gif" alt="Under Construction!" />
                 </div>
                 
                 <h1 className="text-3xl md:text-5xl font-bold text-center mb-4" style={{color: '#031f3d'}}>
@@ -22,6 +22,7 @@ export default function UnderConstruction() {
                 <p className="text-sm md:text-base text-center opacity-70" style={{color: '#031f3d'}}>
                     Vuelve pronto para más novedades de Innovate Pro-Bono!
                 </p>
+
             </div>
             <Footer />
         </div>
