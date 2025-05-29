@@ -1,8 +1,62 @@
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import SeeBelowButton from "../components/see-below-button";
+import { useEffect } from "react";
+import { driver } from "driver.js";
+import "driver.js/dist/driver.css";
 
 export default function Home() {
+
+    // useEffect
+    useEffect(() => {
+        const driverObj = driver({ // driverObject config
+            showProgress: true,
+            steps: [
+                {
+                    element: '#timeline-section-1',
+                    popover: {
+                        title: 'CADA JOVEN CUENTA',
+                        description: 'Dentro de cada joven existe un espíritu único que no siempre se puede explorar como se debería.',
+                        side: "left",
+                        align: 'start'
+                    }
+                },
+                {
+                    element: '#timeline-section-2',
+                    popover: {
+                        title: '¿POR QUÉ NOSOTROS?',
+                        description: 'Porque sabemos que no todos nacemos con las mismas oportunidades.',
+                        side: "right",
+                        align: 'start'
+                    }
+                },
+                {
+                    element: '#timeline-section-3',
+                    popover: {
+                        title: 'NUESTRA MISIÓN',
+                        description: 'Queremos dar apoyo para la formación profesional y académica de nuestro futuro.',
+                        side: "left",
+                        align: 'start'
+                    }
+                }
+            ],
+            nextBtnText: 'Siguiente →',
+            prevBtnText: '← Anterior',
+            doneBtnText: 'Finalizar'
+        });
+
+        // Driver accessible from any point of the current window
+        (window as any).startTour = () => {
+            driverObj.drive();
+        };
+
+        // Cleanup when destroying the driver component
+        return () => {
+            delete (window as any).startTour;
+        };
+
+    }, []);
+
     return (
         <div>
             <Navbar />
@@ -13,18 +67,21 @@ export default function Home() {
                         <img src="banner.png" alt="INNOVATE PRO BONO" />
                     </div>
                     <div className="mt-6">
-                        <SeeBelowButton />
+                        <SeeBelowButton onTourStart={() => (window as any).startTour?.()} />
                     </div>
                 </div>
             </div>
             
-            <section className="w-full bg-white">
+            <section className="w-full bg-white" id="timeline-content">
+              
               <h1 className="font-montserrat text-3xl md:text-6xl text-center text-[#031f3d] font-bold py-16 my-8 mt-10 mb-15">
                 NADIE DEBERÍA EMPEZAR SOLO
               </h1>
               <div className="relative max-w-6xl mx-auto px-6 md:px-4 pb-16"> 
                 <div className="absolute top-0 bottom-0 left-1/2 w-0.5 bg-[#031f3d] -translate-x-1/2 hidden md:block" aria-hidden="true"></div>
-                <div className="relative mb-16 md:mb-20 group">
+                
+                {/* TIMELINE GROUP 1 */}
+                <div className="relative mb-16 md:mb-20 group" id="timeline-section-1">
                   <div className="absolute left-1/2 top-1/2 w-4 h-4 bg-[#031f3d] rounded-full transform -translate-x-1/2 -translate-y-1/2 hidden md:flex items-center justify-center z-10" aria-hidden="true">
                     <div className="w-2 h-2 bg-white rounded-full"></div>
                   </div>
@@ -46,7 +103,9 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="relative mb-16 md:mb-20 group">
+
+                {/* TIMELINE GROUP 2 */}
+                <div className="relative mb-16 md:mb-20 group" id="timeline-section-2">
                   <div className="absolute left-1/2 top-1/2 w-4 h-4 bg-[#031f3d] rounded-full transform -translate-x-1/2 -translate-y-1/2 hidden md:flex items-center justify-center z-10" aria-hidden="true">
                     <div className="w-2 h-2 bg-white rounded-full"></div>
                   </div>
@@ -68,7 +127,9 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="relative mb-16 md:mb-20">
+
+                {/* TIMELINE GROUP 3 */}
+                <div className="relative mb-16 md:mb-20" id="timeline-section-3">
                   <div className="absolute left-1/2 top-1/2 w-4 h-4 bg-[#031f3d] rounded-full transform -translate-x-1/2 -translate-y-1/2 hidden md:flex items-center justify-center z-10" aria-hidden="true">
                     <div className="w-2 h-2 bg-white rounded-full"></div>
                   </div>
@@ -92,6 +153,11 @@ export default function Home() {
                 </div>
               </div>
             </section>
+
+            <div className="bg-[#031f3d] mt-20 pb-10">
+              <h2 className="text-white font-montserrat text-xl md:text-3xl text-center font-bold py-16 my-8 mt-15 mb-5">NUEVA SECCIÓN</h2>
+              <p className="text-white text-center font-semibold mb-10 italic">En construcción!</p>
+            </div>
 
             <div className="mt-20">
               <Footer />
