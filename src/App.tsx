@@ -9,7 +9,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/nuestra-mision" element={<UnderConstruction />} />
         <Route path="/nuestra-vision" element={<UnderConstruction />} />
-        <Route path="/team" element={<UnderConstruction />} />
+        <Route path="/equipo" element={<UnderConstruction />} />
         <Route path="/legal" element={<UnderConstruction />} />
       </Routes>
     </BrowserRouter>
