@@ -10,7 +10,3 @@ Como te habrás imaginado, estás viendo el repositorio de la web del proyecto. 
 
 - 📚 **Linkedin**: Puedes colaborar siguiendo a la fundación a través de su [página](https://www.linkedin.com/company/innovate-pro-bono/).
 - 🚀 **Web**: De momento la web del proyecto se puede visitar en el siguiente [enlace](https://innovate-pro-bono.vercel.app/).
-
----
-
-Gracias por leer y por mostrar interés. Por poco que pueda ser, cada pequeño paso ayuda.
