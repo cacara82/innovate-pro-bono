@@ -12,7 +12,7 @@ export default function Navbar() {
     { name: '¿Quiénes somos?', href: '/' },
     { name: 'Nuestra misión', href: '/nuestra-mision' },
     { name: 'Nuestra visión', href: '/nuestra-vision' },
-    { name: 'Equipo', href: '/team'},
+    { name: 'Equipo', href: '/equipo'},
   ];
  
   return (
