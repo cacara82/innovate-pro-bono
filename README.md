@@ -1,6 +1,6 @@
 
 <div align="center">
-    <img src="public/logo-blanco.png">
+    <img src="public/logo-blanco.png" width="500">
 </div>
 
 **Innovate Pro Bono** es una fundación financiada por entidades públicas y privadas comprometida con la justicia social, cuya misión es transformar el futuro de jóvenes extutelados ofreciéndoles oportunidades reales de crecimiento personal y profesional.
