@@ -159,8 +159,8 @@ export default function Home() {
               <h2 className="text-white font-montserrat text-3xl md:text-5xl text-center font-bold py-16 my-8 mt-15 mb-5 md:pt-25">SABEMOS QUE...</h2>
               <div className="md:grid md:grid-cols-2 md:grid-rows-2 gap-4">
                 <p className="text-white text-center text-lg font-semibold flex items-center mb-20 mt-10 ms-20 me-20">Solo el 4% de jóvenes extutelados logra acceder a estudios universitarios. La mayoría enfrenta la necesidad de emanciparse de forma acelerada entre los 21 y 23 años, muchas veces sin contar con una red familiar o un soporte económico sólido.</p>
-                <img src="sabemos-que-1.png" alt="Sabemos que 1" className="md:w-full md:mb-20 rounded-xl md:flex md:items-center md:max-w-sm md:mx-auto md:block hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out transform px-5 pe-5 mb-10" />
-                <img src="sabemos-que-2.png" alt="Sabemos que 2" className="md:w-full rounded-xl flex md:items-center md:max-w-sm md:mx-auto md:block hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out transform px-5 pe-5" />
+                <img src="sabemos-que-1.png" alt="Sabemos que 1" className="md:w-full w-50 mx-auto md:mb-20 rounded-xl md:flex md:items-center md:max-w-sm md:mx-auto md:block hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out transform mb-10" />
+                <img src="sabemos-que-2.png" alt="Sabemos que 2" className="md:w-full w-50 mx-auto rounded-xl flex md:items-center md:max-w-sm md:mx-auto md:block hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out transform mb-20" />
                 <p className="text-white text-center text-lg font-semibold flex items-center mb-10 mt-10 ms-20 me-20">Los jóvenes extutelados se enfrentan a la creación de barreras psicosociales que dificultan su desarrollo personal y profesional. Con frecuencia, acceden únicamente a empleos temporales incluso cuando cuentan con una cualificación que podría abrirles otras oportunidades más estables.</p>
               </div>
             </div>
