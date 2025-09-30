@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import UnderConstruction from './pages/UnderConstruction'
 import NotFound from './pages/NotFound'
+import Equipo from './pages/Equipo'
 
 export default function App() {
   return(
