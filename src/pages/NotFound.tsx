@@ -8,7 +8,7 @@ export default function NotFound() {
             <Navbar />
             <div className="flex flex-col items-center justify-center px-4 py-16 flex-1">
                
-                <div className="w-64 h-64 md:w-80 md:h-80 bg-gray-200 rounded-lg mb-8 flex items-center justify-center">
+                <div className="w-64 h-64 bg-gray-200 rounded-lg mb-8 flex items-center justify-center">
                     <img src="not-found.gif" alt="Página no encontrada" />
                 </div>
                
